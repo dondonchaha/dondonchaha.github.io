@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,300italic' rel='stylesheet' type='text/css'>
+<meta charset="UTF-8">
+<title>Breathe - CHIALING CHANG</title>
+		<script type="text/javascript">
+			function showImage(imgName) {
+				var curImage = document.getElementById('currentImg');
+				var curImage2 = document.getElementById('currentImg2');
+				var thePath = '';
+				var theSource = thePath + imgName;
+				
+				curImage2.href = theSource;
+				curImage.src = theSource;
+				curImage.alt = imgName;
+				curImage.title = imgName;
+			}
+		</script>
+        <link href="../css/project.css" rel="stylesheet" type="text/css" />
+        <link href="../css/style.css" rel="stylesheet" type="text/css" />
+        <link href="../css/lightbox.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <div id="name">
+      <a href="../index.html">
+        <h1>CHIALING<br>CHANG</h1>
+      </a>
+    </div>
+    
+    <nav>
+        <div class="link-item"><a href="../about.html">about</a></div>
+        <div class="link-item"><a href="../index.html">work</a></div>
+        <div class="link-item"><a href="../research.html">research</a></div>
+        <div class="link-item"><a href="../contact.html">contact</a></div>
+    </nav>
+    
+    <div class="wrapper">  
+      <div class="content">
+      	<div class="content-containter">
+      
+             <div id="leftNav">
+                  <img src="1.jpg" onclick="showImage('1.jpg');" />
+                  <br />
+                  <img src="2.jpg" onclick="showImage('2.jpg');" />
+                  <br />
+                  <img src="3.jpg" onclick="showImage('3.jpg');" />
+                  <br />
+                  <img src="4.jpg" onclick="showImage('4.jpg');" />
+            
+             </div>
+             
+             <div id="rightDisplay">
+                  <a href="1.jpg" data-lightbox="breathe" id="currentImg2"><img id="currentImg" src="1.jpg" /></a>
+        
+             	<div id="video">
+    					<iframe src="https://player.vimeo.com/video/149733440?color=ffffff&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  				   </div>
+             </div>
+             
+             <div id="project-intro">
+                 <h2>Breathe</h2>
+                 <p><i>Breathe</i> is a living lighting installation that rotates in response to human behavior. Walking by <i>Breathe</i>, light varies, capturing the interplay between light and shadow while the wind blows through the branches of a tree.</p>
+                 <p>When a person walks by and pauses, pendants will start to rotate, causing the installation to move. Conversely, the pendants return to a motionless state once the sensor detects active movement by the viewer, giving way to a poetic morphing of space and people. </p>
+                 <p>By creating a neat trick of light, <i>Breathe</i> explores the dynamic relationship between people and the surroundings. The beauty is in the movement.</p> 
+				
+                <p>--
+                 <br />
+                 technological assistance: Chia-Yu, Chen. </p>
+
+             </div>
+             
+    	</div>
+      </div>
+    </div>
+    
+    <footer>
+    © CHIALING CHANG 2012-2015<br>
+    All Rights Reserved.
+    </footer>
+
+<script src="../js/jquery-1.11.0.min.js"></script>
+<script src="../js/lightbox.min.js"></script>
+</body>
+</html>

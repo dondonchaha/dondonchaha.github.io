@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,300italic' rel='stylesheet' type='text/css'>
+<meta charset="UTF-8">
+<title>RE - CHIALING CHANG</title>
+		<script type="text/javascript">
+			function showImage(imgName) {
+				var curImage = document.getElementById('currentImg');
+				var curImage2 = document.getElementById('currentImg2');
+				var thePath = '';
+				var theSource = thePath + imgName;
+				
+				curImage2.href = theSource;
+				curImage.src = theSource;
+				curImage.alt = imgName;
+				curImage.title = imgName;
+			}
+		</script>
+        <link href="../css/project.css" rel="stylesheet" type="text/css" />
+        <link href="../css/style.css" rel="stylesheet" type="text/css" />
+        <link href="../css/lightbox.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <div id="name">
+      <a href="../index.html">
+        <h1>CHIALING<br>CHANG</h1>
+      </a>
+    </div>
+    
+    <nav>
+        <div class="link-item"><a href="../about.html">about</a></div>
+        <div class="link-item"><a href="../index.html">work</a></div>
+        <div class="link-item"><a href="../research.html">research</a></div>
+        <div class="link-item"><a href="../contact.html">contact</a></div>
+    </nav>
+    
+    <div class="wrapper">  
+      <div class="content">
+      	<div class="content-containter">
+      
+             <div id="leftNav">
+                  <img src="1.jpg" onclick="showImage('1.jpg');" />
+                  <br />
+                  <img src="2.jpg" onclick="showImage('2.jpg');" />
+                  <br />
+                  <img src="3.jpg" onclick="showImage('3.jpg');" />
+                  <br />
+                  <img src="4.jpg" onclick="showImage('4.jpg');" />
+             </div>
+             
+             <div id="rightDisplay">
+                  <a href="1.jpg" data-lightbox="re" id="currentImg2"><img id="currentImg" src="1.jpg" /></a>
+             </div>
+             
+             <div id="project-intro">
+                 <h2>RE</h2>
+                 <p>Collecting battered furniture from streets, the intention of <i>RE</i> was to find possibilities of creating something with brand new value by reconstructing elements of the found ones. </p>
+                 <p>To form a side table, the cane chair was cut into two parts and connected with steel legs of the office chair. As for the stool, the top of the IKEA chair was wedged on the bottom part of the half cane chair. It represented western culture while the cane chair was the quintessence of Chinese craft. All connections were joined by tube sheaths. </p>
+                 <p>The simple and unadorned cane combines with acrylic and plastic, materials of modern day, showing a juxtaposition and fusion of time and culture. Also, colors of yellow and brown are from original materials. By maintaining their own features, elements of each part can show their previous context and history. </p>
+                 <p>--
+                 <br />
+                 In collaboration with Li Qin, Ho. </p>
+               
+             </div>
+             
+    	</div>
+      </div>
+    </div>
+    
+    <footer>
+    © CHIALING CHANG 2012-2015<br>
+    All Rights Reserved.
+    </footer>
+
+<script src="../js/jquery-1.11.0.min.js"></script>
+<script src="../js/lightbox.min.js"></script>
+</body>
+</html>
