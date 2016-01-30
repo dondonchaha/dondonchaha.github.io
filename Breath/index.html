@@ -18,6 +18,11 @@
 				curImage.alt = imgName;
 				curImage.title = imgName;
 			}
+      function switchIntro(word) {
+        var word = word;
+        var intro = document.getElementById('img-intro');
+        intro.innerHTML = word;
+      }
 		</script>
         <link href="../css/project.css" rel="stylesheet" type="text/css" />
         <link href="../css/style.css" rel="stylesheet" type="text/css" />
@@ -45,13 +50,19 @@
       	<div class="content-containter">
       
              <div id="leftNav">
-                  <img src="1.jpg" onclick="showImage('1.jpg');" />
+                  <img src="1.jpg" onclick="showImage('1.jpg'); switchIntro('<p><i>Breathe</i> is a living lighting installation that rotates in response to human behavior. Walking by <i>Breathe</i>, light varies. The inspiration comes from gentle movements of light and shadow under the tree.</p><p>When a person walks by and pauses, pendants will start to rotate, causing the installation to move. Conversely, the pendants return to a motionless state once the sensor detects active movement by the viewer, giving way to a poetic morphing of space and people. </p><p>By creating a neat trick of light, <i>Breathe</i> explores the dynamic relationship between people and the surroundings.</p><p>--<br />technological assistance: Chia-Yu Chen<br>year: 2015</br></p>');" />
                   <br />
-                  <img src="2.jpg" onclick="showImage('2.jpg');" />
+                  <img src="2.jpg" onclick="showImage('2.jpg'); switchIntro('<p>A shadowing effect is created by overlaying diverse patterns on parallel semi-transparent lampshades. Displacing or rotating either one creates a new pattern projecting on the floor.</p><p>--<br />technological assistance: Chia-Yu Chen<br>year: 2015</br></p>');" />
                   <br />
-                  <img src="3.jpg" onclick="showImage('3.jpg');" />
+                  <img src="3.jpg" onclick="showImage('3.jpg'); switchIntro('<p><i>Breathe</i> explores the connection and reflection betweem moving up or staying still. In this design, I aim to bring up people’s curiosity toward the vivid light, making them slow down their paces and absorb the every note and harmony within life.</p><p>--<br />technological assistance: Chia-Yu Chen<br>year: 2015</br></p>');" />
                   <br />
-                  <img src="4.jpg" onclick="showImage('4.jpg');" />
+                  <img src="4.jpg" onclick="showImage('4.jpg'); switchIntro('<p>Capturing the interplay between light and shadow while the wind blows through the branches of a tree, <i>Breathe</i> trys to imitate the nature beauty. The beauty is in the movement.</p><p>--<br />technological assistance: Chia-Yu Chen<br>year: 2015</br></p>');" />
+                  <br />
+                  <img src="5.jpg" onclick="showImage('5.jpg'); switchIntro('<p>Early sketch describing the working mechanism. When a person walks by and pauses, pendants will start to rotate, causing the installation to move. Conversely, the pendants retrun to a motionless state once the sensor detects active movement by the viewer.</p><p>--<br />technological assistance: Chia-Yu Chen<br>year: 2015</br></p>');" />
+                  <br />
+                  <img src="6.jpg" onclick="showImage('6.jpg'); switchIntro('<p>Prototyping.</p><p>Using matte PP board and foam board, simple prototypes were made for measuring the relationship between transparency and materials. The size and density of holes were also observed and experimented with.</p><p>--<br />technological assistance: Chia-Yu Chen<br>year: 2015</br></p>');" />
+                  <br />
+                  <img src="7.jpg" onclick="showImage('7.jpg'); switchIntro('<p>White ABS was chosen to be the material. Having been laser-cut out of a perforated pattern of a voronoi diagram, it was then heated to be reshaped. All the modeling was hand-formed.</p><p>--<br />technological assistance: Chia-Yu Chen<br>year: 2015</br></p>');" />
             
              </div>
              
@@ -65,17 +76,17 @@
              
              <div id="project-intro">
                  <h2>Breathe</h2>
-                 <p><i>Breathe</i> is a living lighting installation that rotates in response to human behavior. Walking by <i>Breathe</i>, light varies, capturing the interplay between light and shadow while the wind blows through the branches of a tree.</p>
-                 <p>When a person walks by and pauses, pendants will start to rotate, causing the installation to move. Conversely, the pendants return to a motionless state once the sensor detects active movement by the viewer, giving way to a poetic morphing of space and people. </p>
-                 <p>By creating a neat trick of light, <i>Breathe</i> explores the dynamic relationship between people and the surroundings. The beauty is in the movement.</p> 
+                 <div id="img-intro">
+
+                  <p><i>Breathe</i> is a living lighting installation that rotates in response to human behavior. Walking by <i>Breathe</i>, light varies. The inspiration comes from gentle movements of light and shadow under the tree.</p><p>When a person walks by and pauses, pendants will start to rotate, causing the installation to move. Conversely, the pendants return to a motionless state once the sensor detects active movement by the viewer, giving way to a poetic morphing of space and people. </p><p>By creating a neat trick of light, <i>Breathe</i> explores the dynamic relationship between people and the surroundings.</p> 
 				
-                <p>--
-                 <br />
-                 technological assistance: Chia-Yu Chen 
-                 <br />
-                 year: 2014</p>
+                  <p>--
+                  <br />
+                  technological assistance: Chia-Yu Chen 
+                  <br />year: 2014</p>
 
              </div>
+            </div>
              
     	</div>
       </div>
