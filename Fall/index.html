@@ -18,6 +18,11 @@
 				curImage.alt = imgName;
 				curImage.title = imgName;
 			}
+      function switchIntro(word) {
+        var word = word;
+        var intro = document.getElementById('img-intro');
+        intro.innerHTML = word;
+      }
 		</script>
         <link href="../css/project.css" rel="stylesheet" type="text/css" />
         <link href="../css/style.css" rel="stylesheet" type="text/css" />
@@ -45,15 +50,21 @@
       	<div class="content-containter">
       
              <div id="leftNav">
-                  <img src="1.jpg" onclick="showImage('1.jpg');" />
+                  <img src="1.jpg" onclick="showImage('1.jpg'); switchIntro('<p>The fallen leaves and petals symbolize the shift in nature. The phenomenon, which is only fleetingly brief, is seldom noticed by people. By placing the liquid resin under a tree and waiting for leaves and petals to naturally fall into it, the design project <i>Fall</i> aims to capture a moment of the unique season by freezing the process of falling.</p><p><i>Fall</i> entirely encapsulates the traces of the season. It is a piece of time.</p><p>--<br>year: 2014</br></p>');" />
                   <br />
-                  <img src="5.jpg" onclick="showImage('5.jpg');" />
+                  <img src="2.jpg" onclick="showImage('2.jpg'); switchIntro('<p>In Taiwan, orchid trees are widely planted. The trees begin flowering in shades of pink and purple in early autumn, while falling after several weeks. The idea was to make flowers fixed by polyester resin without human intervention, showing the original appearance of nature. Since the whole process was done in turn over an uninterrupted working time, the sequence of falling was recorded in layers as a result.</p><p>--<br>year: 2014</br></p>');" />
                   <br />
-                  <img src="2.jpg" onclick="showImage('2.jpg');" />
+                  <img src="3.jpg" onclick="showImage('3.jpg'); switchIntro('<p><i>Fall</i> is designed to display the season. With the stand placed under, it unintentionally morphs into a table or a chair.</p><p>The stand is a plate-like holder. The center of it is hollowed out to reveal the transparency of the resin.</p><p>--<br>year: 2014</br></p>');" />
                   <br />
-                  <img src="3.jpg" onclick="showImage('3.jpg');" />
+                  <img src="4.jpg" onclick="showImage('4.jpg'); switchIntro('<p>Suspended in the translucent resin, the delicate shape and surface of raw flowers are preserved eternally and also projected on the ground.</p><p>--<br>year: 2014</br></p>');" />
                   <br />
-                  <img src="4.jpg" onclick="showImage('4.jpg');" />
+                  <img src="5.jpg" onclick="showImage('5.jpg'); switchIntro('<p>There was a chemical reaction of the pigment in petals with the polyester resin. The purple color was bleached while only a few parts remained the light tint of pink, showing a sense of elegance.</p><p>--<br>year: 2014</br></p>');" />
+                  <br />
+                  <img src="6.jpg" onclick="showImage('6.jpg'); switchIntro('<p>Manufacturing process.</p><p>The liquid polyester resin gradually converted to solid form as a catalyst was added into it. In order to achieve the ideal effect, the speed of the curing process was controled by adjusting the amount of the catalyst.</p><p>--<br>year: 2014</br></p>');" />
+                  <br />
+                  <img src="7.jpg" onclick="showImage('7.jpg'); switchIntro('<p>Manufacturing process.</p><p>Because of the wind, petals tended to pile up at the sides of the street, where the mold was laid.</p><p>It took around an hour for the liquid resin to solidify. the resin was poured into the mold before the under layer of resin became completely solid.</p><p>--<br>year: 2014</br></p>');" />
+                  <br />
+                  <img src="8.jpg" onclick="showImage('8.jpg'); switchIntro('<p>The photos of time record. From left to right/top to bottom is  4pm - 5pm, 5pm - 6pm, 6pm - 7:30pm, and 7:30pm - 9:30pm in sequence.</p><p>The whole process was done in turn over an uninterrupted working time, letting petals drifting down naturally. As a result, the sequence of falling was recorded in layers.</p><p>The curing process would be affected because of the temperature. As night fell, the reaction time needed to be prolonged.</p><p>--<br>year: 2014</br></p>');" />
 
              </div>
              
@@ -64,16 +75,16 @@
              
              <div id="project-intro">
                  <h2>Fall</h2>
-                 <p>The fallen leaves and petals symbolize the shift in nature. The phenomenon, which is only fleetingly brief, is seldom noticed by people. By placing the liquid resin under a tree and waiting for leaves and petals to naturally fall into it, the design project <i>Fall</i> aims to capture a moment of the unique season by freezing the process of falling.</p>
-                 <p>In Taiwan, orchid trees are widely planted. The trees begin flowering in shades of pink and purple in early autumn, while falling after several weeks. The idea was to make flowers fixed by polyester resin without human intervention, showing the original appearance of nature. Since the whole process was done in turn over an uninterrupted working time, the sequence of falling was recorded in layers as a result. </p>
-                 <p><i>Fall</i> entirely encapsulates the traces of the season. It is a piece of time. </p> 
-                 <p>--
-                 <br />
-                 year: 2014</p> 
+                 <div id="img-intro">
+
+                    <p>The fallen leaves and petals symbolize the shift in nature. The phenomenon, which is only fleetingly brief, is seldom noticed by people. By placing the liquid resin under a tree and waiting for leaves and petals to naturally fall into it, the design project <i>Fall</i> aims to capture a moment of the unique season by freezing the process of falling.</p><p><i>Fall</i> entirely encapsulates the traces of the season. It is a piece of time.</p> 
+                    <p>--
+                    <br />
+                    year: 2014</p> 
                  
 
 
-
+                  </div>
              </div>
              
     	</div>
