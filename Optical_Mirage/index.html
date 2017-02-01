@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,300italic' rel='stylesheet' type='text/css'>
+<meta charset="UTF-8">
+<title>OPTICAL MIRAGE - CHIALING CHANG</title>
+		<script type="text/javascript">
+			function showImage(imgName) {
+				var curImage = document.getElementById('currentImg');
+				var curImage2 = document.getElementById('currentImg2');
+				var thePath = '';
+				var theSource = thePath + imgName;
+				
+				curImage2.href = theSource;
+				curImage.src = theSource;
+				curImage.alt = imgName;
+				curImage.title = imgName;
+			}
+      function switchIntro(word) {
+        var word = word;
+        var intro = document.getElementById('img-intro');
+        intro.innerHTML = word;
+      }
+		</script>
+        <link href="../css/project.css" rel="stylesheet" type="text/css" />
+        <link href="../css/style.css" rel="stylesheet" type="text/css" />
+        <link href="../css/lightbox.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <div id="name">
+      <a href="..">
+        <h1>CHIALING<br>CHANG</h1>
+      </a>
+    </div>
+    
+    <nav>
+        <div class="link-item"><a href="../about">about</a></div>
+        <div class="link-item"><a href="..">work</a></div>
+        <div class="link-item"><a href="../research">research</a></div>
+        <div class="link-item"><a href="../contact">contact</a></div>
+    </nav>
+    
+    <div class="wrapper">  
+      <div class="content">
+      	<div class="content-containter">
+      
+             <div id="leftNav">
+                  <img src="optical_mirage_level_6ix_2016FW_01.jpg" onclick="showImage('optical_mirage_level_6ix_2016FW_01.jpg');" />
+                  <br />
+                  <img src="optical_mirage_level_6ix_2016FW_02.jpg" onclick="showImage('optical_mirage_level_6ix_2016FW_02.jpg');" />
+                  <br />
+                  <img src="optical_mirage_level_6ix_2016FW_03.jpg" onclick="showImage('optical_mirage_level_6ix_2016FW_03.jpg');" />
+                  <br />
+                  <img src="optical_mirage_level_6ix_2016FW_04.jpg" onclick="showImage('optical_mirage_level_6ix_2016FW_04.jpg');" />
+                  <br />
+                  <img src="optical_mirage_level_6ix_2016FW_05.jpg" onclick="showImage('optical_mirage_level_6ix_2016FW_05.jpg');" />
+                  <br />
+                  <img src="optical_mirage_level_6ix_2016FW_06.jpg" onclick="showImage('optical_mirage_level_6ix_2016FW_06.jpg');" />
+                  <br />
+                  <img src="optical_mirage_level_6ix_2016FW_07.jpg" onclick="showImage('optical_mirage_level_6ix_2016FW_07.jpg');" />
+                  <br />
+                  <img src="optical_mirage_level_6ix_2016FW_08.jpg" onclick="showImage('optical_mirage_level_6ix_2016FW_08.jpg');" />
+                  <br />
+            
+             </div>
+             
+             <div id="rightDisplay">
+                  <a href="optical_mirage_level_6ix_2016FW_01.jpg" data-lightbox="optical_mirage" id="currentImg2"><img id="currentImg" src="optical_mirage_level_6ix_2016FW_01.jpg" /></a>
+        
+             	<div id="video">
+    					<iframe src="https://player.vimeo.com/video/201982420?color=ffffff&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  				   </div>
+             </div>
+             
+             <div id="project-intro">
+                 <h2>Optical Mirage</h2>
+                 <div id="img-intro">
+
+                  <p><i>Optical Mirage</i> was the 2016 Fall/Winter window display design for Taiwanese Brand Level 6ix, including its flagship store and the one at BELLAVITA Luxury mall located in Taipei, Taiwan.</p> 
+
+                  <p>The concept played around with the optics, especially the persistence of vision. By overlapping blue and magenta colors, double-painted cylinders created an effect of illusion. When walking through, brightly colored stripes alternated with each other continuously.</p>
+				
+                  <p>Apart from paper structures, a swing installation with the magnifying lens at the end highlighted the space. Based on the principle of the magnifying effect, the lens would produce an optical changing as the kaleidoscopes while shifting. Entirely made of acrylic, the installation was concealed perfectly, giving out a mirage as if the magnifying lens was floating.</p>
+                  <p>--
+                  <br />
+                  For Level 6ix Select Boutique (Taiwan) 
+                  <br />
+                  In collaboration with James Teng & Peter Hsieh 
+                  <br />Year: 2016</p>
+
+             </div>
+            </div>
+             
+    	</div>
+      </div>
+    </div>
+    
+    <footer>
+    © CHIALING CHANG 2013-2016<br>
+    All Rights Reserved.
+    </footer>
+
+<script src="../js/jquery-1.11.0.min.js"></script>
+<script src="../js/lightbox.min.js"></script>
+</body>
+</html>
