@@ -34,7 +34,7 @@
 	}
 
 	#rightDisplay {
-		width: 60%;
+		width: 64%;
 	 	display: block;
 	 	float: right;
 	 	margin-right: 5%;
@@ -44,7 +44,7 @@
 	#project-intro {
 		margin-right: 3%;
 		display: inline-block;
-		width: 60%;
+		width: 64%;
 	}
 }
 
