@@ -49,6 +49,12 @@ nav a{
 	line-height: 40px;
 }
 
+@media screen and (max-width:959px) {
+	#name{
+		top: 60px;
+	}
+}
+
 #name a {
 	text-decoration: none;
 	color: #000;
@@ -61,6 +67,12 @@ nav a{
 	margin: 50px auto;
 	margin-top: 0;
 	padding-top: 220px;
+}
+
+@media screen and (max-width:959px) {
+	.content {
+		padding-top: 180px;
+	}
 }
 
 #columns {
