@@ -67,6 +67,7 @@ nav a{
 	margin: 50px auto;
 	margin-top: 0;
 	padding-top: 220px;
+
 }
 
 @media screen and (max-width:959px) {
@@ -76,7 +77,9 @@ nav a{
 }
 
 #columns {
-	width: 100%;
+	margin-left: 12%;
+	margin-right: 12%;
+	width: 76%;
 	-webkit-column-count: 3;
 	-webkit-column-gap: 5px;
 	-webkit-column-fill: auto;
@@ -94,6 +97,8 @@ nav a{
 
 @media screen and (max-width:959px) {
 	#columns {
+		margin-left: 0%;
+		margin-right: 0%;
 		width: 100%;
 		-webkit-column-count: 2;
 		-webkit-column-gap: 5px;
@@ -109,6 +114,8 @@ nav a{
 
 @media screen and (max-width:414px) {
 	#columns {
+		margin-left: 0%;
+		margin-right: 0%;
 		width: 100%;
 		-webkit-column-count: 1;
 		-webkit-column-gap: 5px;
